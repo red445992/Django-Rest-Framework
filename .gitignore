@@ -1,0 +1,64 @@
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+*.so
+
+# Virtual environment
+myenvi/
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+static/
+*.sqlite3
+
+# Django migrations
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Django secret keys
+*.env
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+
+# pipenv
+Pipfile.lock
+
+# Coverage
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+
+# Pytest
+pytest_cache/
+
+# Django Admin media files
+static/admin
+
+# Sphinx documentation
+docs/_build/
+
+# Test directory
+tests/
+
+# Django REST Framework
+# Generated files (Swagger, etc.)
+swagger/
