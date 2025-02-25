@@ -1,8 +1,9 @@
-Django Rest Framework (DRF) Learning Project
-Overview
+# Django Rest Framework (DRF) Learning Project
+
+# Overview
 This project is a hands-on learning journey through the Django Rest Framework (DRF), with the goal of exploring and mastering key concepts such as building APIs, serializing Django model instances, handling requests and responses, and extending the functionality to advanced features in DRF.
 
-So far, I've learned how to:
+# So far, I've learned how to:
 
 Create basic APIs with DRF.
 -Echo data in API responses.
@@ -14,9 +15,13 @@ Create basic APIs with DRF.
 
 
 
-Features/Goals
+# Features/Goals
 -Completed Features:
 -Basic API Views: Implemented API views to handle GET and POST requests.
 -Model Serialization: Serialized Django model instances (e.g., Product) to JSON format for API responses.
 -Custom Fields in Serializers: Used SerializerMethodField to add computed fields to the serialized data.
 -API Responses: Returned serialized model data as JSON responses using DRF’s Response object.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
