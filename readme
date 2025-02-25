@@ -17,6 +17,4 @@ The project will continue to evolve as I learn more advanced concepts in DRF.
 - Serialize Django model instances into dictionaries.
 - Learn about serializers, authentication, permissions, and more advanced features of DRF.
 
-=======
-Django REST Framework - Tutorial
->>>>>>> e88e62a87abf972e9293bd0904ff2dffdb0e0d02
+
