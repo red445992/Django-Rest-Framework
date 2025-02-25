@@ -1,4 +1,5 @@
-# Django Rest Framework (DRF) Learning Project
+# <h1 style="font-size: 36px;">Django Rest Framework (DRF) Learning Project</h1>
+
 
 ## Overview
 This project is a hands-on learning journey through the Django Rest Framework (DRF). The goal is to explore and master key concepts such as building APIs, serializing Django model instances, handling requests and responses, and extending functionality to advanced features in DRF.
