@@ -5,6 +5,7 @@
 This repository contains the progress I am making while learning Django Rest Framework (DRF). The goal is to develop a strong understanding of DRF and its various components like creating API views, serializers, authentication, and working with databases using Django.
 
 I'm following a YouTube tutorial to guide me through the learning process, and I'll update this README with my progress for each lesson.
+[Watch the Django Rest Framework tutorial on YouTube](https://www.youtube.com/watch?v=c708Nf0cHrs&t=5225s)
 
 ## Table of Courses
 
