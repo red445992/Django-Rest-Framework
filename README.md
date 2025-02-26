@@ -16,10 +16,10 @@ I'm following a YouTube tutorial to guide me through the learning process, and I
 | Echo GET Data                                                                | [x] Completed   |
 | Django Model Instance as API Response                                        | [x] Completed   |
 | Django Model Instance to Dictionary                                          | [x] Completed   |
-| Rest Framework View & Response                                               | [ ] Not Started |
-| Django Rest Framework Model Serializers                                      | [ ] Not Started |
+| Rest Framework View & Response                                               | [x] Completed |
+| Django Rest Framework Model Serializers                                      | [x] Completed |
 | Ingest Data with Django Rest Framework Views                                 | [x] Completed   |
-| Django Rest Framework Generics RetrieveAPIView                               | [ ] Not Started |
+| Django Rest Framework Generics RetrieveAPIView                               | [] Not Started |
 | Django Rest Framework CreateAPIView                                           | [ ] Not Started |
 | Django Rest Framework ListAPIView & ListCreateAPIView                        | [ ] Not Started |
 | Using Function Based Views For Create Retrieve or List                       | [ ] Not Started |
