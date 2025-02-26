@@ -9,13 +9,14 @@ from rest_framework.response import Response
 from rest_framework.decorators import api_view
 
 
-@api_view(['GET','POST'])
+@api_view(['POST'])
 def api_home(request,*args,**kwargs):
     #1. Echo Get Data
     #2. Django Model Instance as an API response
     #3. django model instance to dictionary
     #4. rest framework ciew and response
     #5. drf model serializers
+    #6. injecting data using DRF
     ######################## 1. Echoing get data##########################################
     # # to access data of params
     # name = request.GET.get('name')
@@ -41,17 +42,27 @@ def api_home(request,*args,**kwargs):
     # ####
     #model_data = Product.objects.all().order_by("?").first()
     #5. 
-    instance = Product.objects.all().order_by("?").first()
-    data = {}
-    if instance:
-    #if model_data:
-        # data['id'] = model_data.id
-        # data['title'] = model_data.title
-        # data['content'] = model_data.content
-        # data['price'] = model_data.price
-        #data = model_to_dict(model_data,fields=['id','title','price','sale_price']) #3.  model instance to dictionary
-        data = ProductSerializer(instance).data
+    # instance = Product.objects.all().order_by("?").first()
+    # data = {}
+    # if instance:
+    # #if model_data:
+    #     # data['id'] = model_data.id
+    #     # data['title'] = model_data.title
+    #     # data['content'] = model_data.content
+    #     # data['price'] = model_data.price
+    #     #data = model_to_dict(model_data,fields=['id','title','price','sale_price']) #3.  model instance to dictionary
+    #     data = ProductSerializer(instance).data
     #return JsonResponse(data)
     # return HttpResponse(data,headers={'content-type':'application/json'}) 
     #4. 
-    return Response(data)
+
+
+    #6. Ingesting data from DRF
+    
+    serializer = ProductSerializer(data = request.data)
+    if serializer.is_valid():
+        # print(serializer.data)
+        # instance = serializer.save()
+        # data = serializer.data
+        return Response(serializer.data)
+    return Response(serializer.errors, status=400)
