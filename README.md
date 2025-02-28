@@ -20,8 +20,8 @@ I'm following a YouTube tutorial to guide me through the learning process, and I
 | Rest Framework View & Response                                               | [x] Completed |
 | Django Rest Framework Model Serializers                                      | [x] Completed |
 | Ingest Data with Django Rest Framework Views                                 | [x] Completed   |
-| Django Rest Framework Generics RetrieveAPIView                               | [] Not Started |
-| Django Rest Framework CreateAPIView                                           | [ ] Not Started |
+| Django Rest Framework Generics RetrieveAPIView                               | [X] Completed |
+| Django Rest Framework CreateAPIView                                           | [X] Completed |
 | Django Rest Framework ListAPIView & ListCreateAPIView                        | [ ] Not Started |
 | Using Function Based Views For Create Retrieve or List                       | [ ] Not Started |
 | UpdateAPIView & DestroyAPIView                                               | [ ] Not Started |
